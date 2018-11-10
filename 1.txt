@@ -1,0 +1,44 @@
+Microsoft Windows [版本 6.1.7601]
+版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+
+C:\Users\PC>E:
+
+E:\>mkdir code
+
+E:\>code
+'code' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+E:\>cd code
+
+E:\code>git congig --global user"liyusheng"
+git: 'congig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+E:\code>gitconfig --global user"liyusheng"
+'gitconfig' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+E:\code>git config --global user"liyusheng"
+error: key does not contain a section: userliyusheng
+
+E:\code>git config --global user email"2917487550@qq.com"
+error: key does not contain a section: user
+
+E:\code>git config --global user.email"2917487550@qq.com"
+
+E:\code>git config --global user.name"liyusheng"
+
+E:\code>git init
+Initialized empty Git repository in E:/code/.git/
+
+E:\code>echo“#code”>> README.md
+'echo“#code”' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+E:\code>git ssh-keygen-t rsa -C
+git: 'ssh-keygen-t' is not a git command. See 'git --help'.
+
+E:\code>0101001010101110111010110101010101110010101010101010101010101000011000111001100111001100110011001100110011101100110011001100101010101000101010100011110001101001010
